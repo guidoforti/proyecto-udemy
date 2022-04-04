@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: blueviolet;
+    width: 24.99%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    
+}
+
+#boxmodel {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 24.99%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background:url(Imagenes/espacio.jpg) no-repeat center;
+}
+
+
+#boxcontent {
+text-align: center;
+font-size: 40px;
+border: 1px solid black;
+border-radius: 5px;
+font-family:fantasy;
+font-weight: bold;
+background-color: #CE8DD7;
+overflow: auto;
+
+}
+
+
+/* ASI SE HACE UN COMENTARIO EN CSS */
+
