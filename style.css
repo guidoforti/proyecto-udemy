@@ -1,9 +1,54 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: #E2D784 ;
+    color: #05595B;
+}
+
+a:link{
+color: #5F939A;
+text-decoration: none;
+font-family: fantasy;
+
+}
+a:visited {
+    color: #9A0680;
+text-decoration: none;
+
+}
+a:hover{
+    color: #FF1818;
+    transition: 1.5s;
+    text-decoration: underline;
+}
+a:active{
+    color: #062C30;
+    text-decoration: underline;
+}
+
+/* BOTONES EN CSS */
+a.btnlink:link, a.btnlink:visited 
+{ 
+background-color: #05595B;
+color:#F5F5F5;
+padding: 30px 20px;
+text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+}
+
+a.btnlink:hover, a.btnlink:active {
+ background-color: #3E497A;
+ color: #F1D00A;
+ text-decoration: underline;
+ transition: 0.7s;
+}
+/* BOTONES EN CSS */
 
 h1 {
-    background-color: blueviolet;
+    background-color: #062C30;
+    color: #F5F5F5;
     width: 24.99%;
     text-align: center;
     margin-left: auto;
@@ -27,11 +72,12 @@ h1 {
 #boxcontent {
 text-align: center;
 font-size: 40px;
+color:#F5F5F5;
 border: 1px solid black;
 border-radius: 5px;
 font-family:fantasy;
 font-weight: bold;
-background-color: #CE8DD7;
+background-color: #05595B;
 overflow: auto;
 
 }
