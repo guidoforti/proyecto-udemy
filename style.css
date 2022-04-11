@@ -36,6 +36,7 @@ padding: 30px 20px;
 text-align: center;
 border: 2px solid black;
 border-radius: 10px;
+float: right;
 }
 
 a.btnlink:hover, a.btnlink:active {
@@ -49,7 +50,7 @@ a.btnlink:hover, a.btnlink:active {
 h1 {
     background-color: #062C30;
     color: #F5F5F5;
-    width: 24.99%;
+     
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -83,5 +84,30 @@ overflow: auto;
 }
 
 
-/* ASI SE HACE UN COMENTARIO EN CSS */
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
 
+
+caption {
+    color:#3E497A;
+    font-family:trocchi, serif;
+    font-size: 50px;
+    line-height: 70px; 
+}
+
+th {
+    color: #F5F5F5;
+    background-color: #062C30;
+}
+
+
+
+
+
+
+/* ASI SE HACE UN COMENTARIO EN CSS */
