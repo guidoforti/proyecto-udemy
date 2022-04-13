@@ -1,33 +1,60 @@
 *{
     box-sizing: border-box;
+    
 }
 body{
-    background-color: #E2D784 ;
+    background-color: white;
     color: #05595B;
+    margin: 0px;
 }
 
-a:link{
+ul.nav {
+    list-style: none;
+    background-color:#062C30;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    float: left;
+
+}
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-family: fantasy;
+    color: #E0DDAA;
+}
+li a:hover{
+    background-color: #E0DDAA;
+    color: #062C30;
+    transition: 1s;
+}
+
+a.linksolo:link{
 color: #5F939A;
 text-decoration: none;
 font-family: fantasy;
 
 }
-a:visited {
+a.linksolo:visited {
     color: #9A0680;
 text-decoration: none;
 
 }
-a:hover{
+a.linksolo:hover{
     color: #FF1818;
     transition: 1.5s;
     text-decoration: underline;
 }
-a:active{
+a.linksolo:active{
     color: #062C30;
     text-decoration: underline;
 }
 
-/* BOTONES EN CSS */
+/* BOTONES EN CSS 
 a.btnlink:link, a.btnlink:visited 
 { 
 background-color: #05595B;
@@ -45,16 +72,18 @@ a.btnlink:hover, a.btnlink:active {
  text-decoration: underline;
  transition: 0.7s;
 }
-/* BOTONES EN CSS */
+ BOTONES EN CSS , LOS ESTOY BORRANDO PORQUE ALFINAL LO PUSE EN UNA LISTA DE NAVEGACION ARRIBA*/
 
 h1 {
     background-color: #062C30;
     color: #F5F5F5;
-     
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
     overflow: auto;
+    line-height: 55px;
+    font-size: 50px;
     
 }
 
@@ -89,8 +118,11 @@ table, th, td{
     text-align: center;
     border-collapse: collapse;
     padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
     
 }
+
 
 
 caption {
@@ -98,12 +130,25 @@ caption {
     font-family:trocchi, serif;
     font-size: 50px;
     line-height: 70px; 
+    background-color: #E0DDAA;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 th {
     color: #F5F5F5;
-    background-color: #062C30;
+    background-color: #141E27;
+    font-family:'Trebuchet MS';
 }
+
+ tr:nth-child(even)  {
+     color:black;
+     background-color: #EEEDDE;
+ }
+ tr:nth-child(odd) {
+     background-color: #92A9BD;
+     color:black;
+ }
 
 
 
