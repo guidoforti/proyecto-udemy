@@ -5,7 +5,7 @@
 body{
     background-color: white;
     color: #05595B;
-    margin: 0px;
+    margin: 5px;
 }
 
 ul.nav {
@@ -19,6 +19,7 @@ li {
     float: left;
 
 }
+
 li a {
     display: block;
     text-decoration: none;
@@ -31,6 +32,28 @@ li a:hover{
     background-color: #E0DDAA;
     color: #062C30;
     transition: 1s;
+}
+
+dl, dd, dt {
+    color: black;
+    
+}
+dt {
+    font-size: 20px;
+    font-weight: bold;
+}
+dd {
+    font-size: 15px;
+    font-family: cursive;
+    color: #3E497A;
+    font-weight: bold;
+}
+
+h2.seccion {
+    font-size: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a.linksolo:link{
@@ -133,6 +156,7 @@ caption {
     background-color: #E0DDAA;
     border: 2px solid black;
     border-radius: 5px;
+    margin: 0px 0px 5px 0px;
 }
 
 th {
