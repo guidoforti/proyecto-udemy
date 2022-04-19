@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
-    
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background-color: white;
+
     color: #05595B;
     margin: 5px;
 }
@@ -105,7 +107,7 @@ h1 {
     margin-right: auto;
     margin-top: 0px;
     overflow: auto;
-    line-height: 55px;
+    line-height: 60px;
     font-size: 50px;
     
 }
@@ -114,7 +116,7 @@ h1 {
     border: 3px solid black;
     border-radius: 5px;
     width: 24.99%;
-   
+    margin-top:20px ;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
@@ -135,13 +137,32 @@ overflow: auto;
 
 }
 
+#sec1 {
+    background-color: #143F6B;
+    
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+#h2sec1 {
+    color: white;
+}
+
+
+table {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 table, th, td{
     border: 1px solid black;
     text-align: center;
     border-collapse: collapse;
     padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;  
     
     
 }
@@ -157,12 +178,15 @@ caption {
     border: 2px solid black;
     border-radius: 5px;
     margin: 0px 0px 5px 0px;
+    width:550px;
 }
 
 th {
-    color: #F5F5F5;
-    background-color: #141E27;
+    color: #000;
+    background-color: #FF8C32;
     font-family:'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 20px;
 }
 
  tr:nth-child(even)  {
@@ -173,6 +197,37 @@ th {
      background-color: #92A9BD;
      color:black;
  }
+ iframe {
+     border: 2px solid #000;
+     border-radius: 10px;
+     width: 100%;
+     height: 400px;
+    
+ }
+ #divframeboton{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #iframeboton:visited, #iframeboton:link {
+     display: block;
+     text-align: center;
+     background-color: #EEEDDE;
+     padding: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border: 1px solid black;
+     border-radius: 5px;
+     text-decoration: none;
+     color: #143F6B;
+     font-family: fantasy;
+ }
+
+#iframeboton:hover {
+    background-color: #FF9F45;
+    color: #2C3333;
+    transition: 1s;
+}
 
 
 
