@@ -5,8 +5,7 @@
 }
 body{
     background-color: white;
-
-    color: #05595B;
+    
     margin: 5px;
 }
 
@@ -150,7 +149,7 @@ overflow: auto;
 
 
 table {
-    width: 500px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -174,19 +173,24 @@ caption {
     font-family:trocchi, serif;
     font-size: 50px;
     line-height: 70px; 
-    background-color: #E0DDAA;
+    background-color: #E3CAA5;
     border: 2px solid black;
     border-radius: 5px;
     margin: 0px 0px 5px 0px;
-    width:550px;
+    width:800px;
 }
 
 th {
     color: #000;
-    background-color: #FF8C32;
+    background-color: #92A9BD;
     font-family:'Trebuchet MS';
     font-weight: bolder;
     font-size: 20px;
+}
+
+#thimg {
+    width: 100%;
+    padding: 0px;
 }
 
  tr:nth-child(even)  {
@@ -194,7 +198,7 @@ th {
      background-color: #EEEDDE;
  }
  tr:nth-child(odd) {
-     background-color: #92A9BD;
+     background-color: #FFF89A;
      color:black;
  }
  iframe {
@@ -229,7 +233,12 @@ th {
     transition: 1s;
 }
 
-
+div.divformulario{
+    margin-top: 50px;
+}
+div.fomulario {
+    margin-top: 100px;
+}
 
 
 
