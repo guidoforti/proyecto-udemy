@@ -240,7 +240,69 @@ div.fomulario {
     margin-top: 100px;
 }
 
+div.conteinercont {
+    width: 900px;
+    margin: 50px auto;
+    background: linear-gradient(#00092C, #143F6B, #488FB1, #42C2FF);
+    border: 2px solid black;
+    border-radius: 10px;
+ }
 
+.conteinerform {
+  margin: 50px auto;
+  width: 500px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, .5) ;
+  border-radius: 10px;
+}
 
+.conteinerform h3 {
+    color: #143F6B;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    padding: 0px;
+    font-size: 30px; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    
+}
+
+.conteinerform .element label {
+    color: #DDDDDD;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+} 
+
+.conteinerform .element input {
+    width: 100%;
+    padding: 10px;
+    color: #DDDDDD;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.conteinerform .element input[type="submit"] {
+    background-color: #DDDDDD ;
+    letter-spacing: 2px;
+    color: #143F6B;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: fantasy;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+.conteinerform .element input[type="submit"]:hover {
+    background:linear-gradient(#D22779, #612897);
+    color: #0C1E7F;
+    transition: 1.5s;
+    
+    
+}
 
 /* ASI SE HACE UN COMENTARIO EN CSS */

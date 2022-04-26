@@ -78,7 +78,7 @@
   <section id="sec2"> 
   
     <h2 class="seccion">
-      seccion 2</h2> 
+      </h2> 
    
     <dl>
       <dt>Nacido en:</dt>
@@ -88,13 +88,39 @@
       <dt>Orientacion sexual:</dt>
       <dd>NNC</dd>
     </dl>
+<br>
+<br>
+<div class="conteinercont">
+  <div class="conteinerform">
+      <h3> Log-in</h3>
+      <form method="post" action="mi_servidor" target="_blank">
+
+    <div class="element">
+    <label for="email">Email</label> 
+    <br>
+    <input type="email" id="email" placeholder="Ej pedroperez@gmail..." name="email" required="true">
+    </div>
+
+   <div class="element">
+     <label for="password"> Password</label>
+    </br>
+     <input type="password" id="password" name="Password" required="true">
+   </div>
+   <div class="element">
+     <input type="submit" value="Sign In"/> 
+   </div>
+   </form>
+ </div>
+</div>
 
     <div class="divformulario">
-      <h2> FORMULARIO PARA DESTERRAR A RAMIRO COUGGAT</h2>
-      <p> el siguiente formulario se encuentra destinado a juntar firmas de los diferentes usuarios con el objetivo de desterrar a ramiro couggat de TILT ARGENTINA</p>
+      <h2> FORMULARIO PARA DESTERRAR A RAMIRO CUGAT </h2>
+      <p> el siguiente formulario se encuentra destinado a juntar firmas de los diferentes usuarios con el objetivo de desterrar a ramiro cugat de TILT ARGENTINA</p>
     
     <div class="formulario">
-      <form method="post"> 
+      <form method="post" action="mi_servidor" target="_blank"> 
+        <fieldset> 
+          <legend>Ingrese sus datos:</legend>
         <label for="nombre"> Nombre: </label> </br>
         <input type="text" id="nombre" placeholder="Escribe tu nombre" name="nombre" required="true" > </br>
 
@@ -152,22 +178,10 @@
     <textarea id="Comentario" name="Comentario" required="true" rows="3" cols="30"></textarea>
     <br>
     <br>
-  
-  
-
-
-      <label for="email">Email:</label> 
-      <br>
-      <input type="email" id="email" placeholder="Ej pedroperez@gmail..." name="email" required="true">
-      <br>
-
-      <label for="password"> Password:</label> </br>
-      <input type="password" id="password" name="Password" required="true">
-      <br>
-
 
         <input type="submit"> 
         <input type="submit" formnovalidate="formnovalidate" value="Enviar sin valdiar">
+      </fieldset>
       </form>
       
       
