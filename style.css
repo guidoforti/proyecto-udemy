@@ -262,9 +262,9 @@ div.conteinercont {
     text-align: center;
     padding: 0px;
     font-size: 30px; 
-    font-family:'Courier New', Courier, monospace;
+    font-family:serif;
     font-weight: bolder;
-    background-color: #DDDDDD;
+    background: linear-gradient(#8D8DAA, #DDDDDD, #EEEEEE);
     border-radius: 10px;
     
 }
@@ -286,9 +286,10 @@ div.conteinercont {
 }
 
 .conteinerform .element input[type="submit"] {
-    background-color: #DDDDDD ;
+    background-color: #000 ;
+    background-color: transparent;
     letter-spacing: 2px;
-    color: #143F6B;
+    color: #DDDDDD;
     font-weight: bolder;
     font-size: 20px;
     font-family: fantasy;
@@ -298,11 +299,17 @@ div.conteinercont {
 }
 
 .conteinerform .element input[type="submit"]:hover {
-    background:linear-gradient(#D22779, #612897);
+    background-color: #FF9F45 ;
     color: #0C1E7F;
     transition: 1.5s;
     
     
 }
 
-/* ASI SE HACE UN COMENTARIO EN CSS */
+/* PAGINA ACERCA DE */
+
+#navacerca {
+    width: 20%;
+    float: left;
+    
+}

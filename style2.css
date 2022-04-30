@@ -1,0 +1,56 @@
+body {
+    background-color: #EDE6DB;
+}
+
+.headeracerca{
+    font-size: 50px;
+    text-align: center;
+    color:#EDE6DB;
+    background-color:#7209b7;
+    margin-bottom: 20px;
+}
+#navacerca {
+    width: 20%;
+    float: left;
+}
+#navacerca a {
+    background-color: #f71570;
+   border-radius: 10px 0px 10px 0px;
+   color: aliceblue;
+   margin: 10px;
+   padding: 10px;
+   text-decoration: none;
+   display: block; /* ACA ES DISPLAY BLOCK, PARA QUE NO SE SUPERPONGAN 
+   LOS BOTONCITOS Y OCUPEN CADA UNO UN ESPACIO */
+}
+.secacerca {
+    width: 75%;
+    font-size: 20px;
+    float: right;
+    color: #7209b7;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 1px 0px 5px black;
+}
+
+.asideacerca {
+    float: right;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    color: #4361ee;
+    box-shadow: inset 5px 0px -5px #4361ee;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1px;
+    
+}
+footer a {
+    text-decoration: none;
+}
