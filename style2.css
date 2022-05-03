@@ -1,5 +1,5 @@
 body {
-    background-color: #EDE6DB;
+    background-color: #205375;
 }
 
 .headeracerca{
@@ -13,9 +13,11 @@ body {
     width: 20%;
     float: left;
 }
+/* FIJARSE COMO JUGO CON LOS FLOAT PARA DARLE POSICIONAMIENTO A ESTAS COSAS, AUNQUE ESTO YA NO SE USA */ 
 #navacerca a {
     background-color: #f71570;
-   border-radius: 10px 0px 10px 0px;
+   border-radius: 10px 0px 10px 0px; 
+   /* este border radius se apica derecha e izquierda y hace que quede como muestro en la imagen */
    color: aliceblue;
    margin: 10px;
    padding: 10px;
@@ -28,11 +30,12 @@ body {
     font-size: 20px;
     float: right;
     color: #7209b7;
+    background-color:#FEFBE7 ;
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 15px;
     padding: 15px;
-    box-shadow: 1px 0px 5px black;
+    box-shadow: 1px 0px 5px black; /* esto es box shadow y permite hacerle sombrita */
 }
 
 .asideacerca {
@@ -49,8 +52,11 @@ footer {
     clear: both;
     text-align: center;
     padding: 1px;
+
     
 }
 footer a {
     text-decoration: none;
+    font-weight: bolder;
+    color: beige;
 }
