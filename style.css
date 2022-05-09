@@ -1,8 +1,11 @@
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
+
 body{
     background: url("Imagenes/fondo.png") repeat center;
     background-attachment: fixed;
@@ -29,10 +32,10 @@ li a {
     padding: 15px;
     text-align: center;
     font-family: fantasy;
-    color: #E0DDAA;
+    color: #DDDDDD;
 }
 li a:hover{
-    background-color: #E0DDAA;
+    background-color: #DDDDDD;
     color: #062C30;
     transition: 1s;
 }
@@ -107,9 +110,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    overflow: auto;
+    font-family: 'Pacifico';
+    text-shadow: 5px 5px 5px #92A9BD;
     line-height: 60px;
-    font-size: 50px;
+    font-size: 40px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    
     
 }
 
@@ -147,6 +155,12 @@ overflow: auto;
 }
 #h2sec1 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 55px;
+    width: 300px;
+    margin: 20px auto;
+
 }
 
 
@@ -172,7 +186,7 @@ table, th, td{
 
 caption {
     color:#3E497A;
-    font-family:trocchi, serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 50px;
     line-height: 70px; 
     background-color: #E3CAA5;
@@ -265,7 +279,7 @@ div.conteinercont {
     text-align: center;
     padding: 0px;
     font-size: 30px; 
-    font-family:serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
     background: linear-gradient(#8D8DAA, #DDDDDD, #EEEEEE);
     border-radius: 10px;
@@ -275,7 +289,7 @@ div.conteinercont {
 .conteinerform .element label {
     color: #DDDDDD;
     font-size: 20px;
-    font-family:'Courier New', Courier, monospace ;
+    font-family:Arial, Helvetica, sans-serif ;
 } 
 
 .conteinerform .element input {
