@@ -1,4 +1,14 @@
 
+@keyframes rotate-vert-center {
+    0% {
+      transform: rotateY(0);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -16,7 +26,11 @@ body{
 
 ul.nav {
     list-style: none;
-    background-color:#143F6B;
+    background-color: #589ae4;
+    background-image: linear-gradient(270deg, #589ae4 0%, #2521a0 50%, #00092c 100%);
+    
+
+
     overflow: hidden;
     padding: 0px;
     margin: 0px;
@@ -57,7 +71,7 @@ dd {
 
 h2.seccion {
     font-size: 50px;
-    width: 250px;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -84,6 +98,7 @@ a.linksolo:active{
 }
 .icnav{
     font-size: 25px;
+    margin: -10px 30px;
     
 }
 
@@ -108,7 +123,10 @@ a.btnlink:hover, a.btnlink:active {
  BOTONES EN CSS , LOS ESTOY BORRANDO PORQUE ALFINAL LO PUSE EN UNA LISTA DE NAVEGACION ARRIBA*/
 
 h1 {
-    background-color: #143F6B;
+    background-color: #589ae4;
+    background-image: linear-gradient(270deg, #589ae4 0%, #2521a0 50%, #00092c 100%);
+    
+
     color: #F5F5F5;
     text-align: center;
     margin-left: auto;
@@ -131,15 +149,19 @@ h1 {
     
 }
 
-#boxmodel {
+div.boxdad {
+    width: 100%;
+    margin: 40px 0px;
+    position: relative;
+}
+.boxmodel {
     border: 3px solid black;
     border-radius: 5px;
-    width: 24.99%;
-    margin-top:20px ;
-    margin-left: auto;
-    margin-right: auto;
+    width: 30%;
+    margin: 20px 20px;
     padding: 40px;
     background:url(Imagenes/espacio.jpg) no-repeat center;
+    display: inline-block;
 }
 
 
@@ -151,13 +173,13 @@ border: 1px solid black;
 border-radius: 5px;
 font-family:fantasy;
 font-weight: bold;
-background-color: #05595B;
+background-color: #143F6B;
 overflow: auto;
 
 }
 
 #sec1 {
-    background-color: #143F6B;
+    background: linear-gradient(#00092C, #143F6B, #488FB1, #42C2FF);
     
     border: 1px solid white;
     border-radius: 10px;
@@ -195,7 +217,9 @@ table, th, td{
 
 
 caption {
-    color:#3E497A;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
     font-family:Arial, Helvetica, sans-serif;
     font-size: 50px;
     line-height: 70px; 
@@ -207,7 +231,10 @@ caption {
 }
 
 th {
-    color: #000;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+    
     background-color: #92A9BD;
     font-family:'Trebuchet MS';
     font-weight: bolder;
@@ -331,6 +358,33 @@ div.conteinercont {
     transition: 1.5s;
     
     
+}
+
+
+
+div.rotate-vert-center {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+background-color: #000;
+border-radius: 10px;
+animation: rotate-vert-center 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+
+background-color:#00092c
+}
+
+div.rotate-vert-center:hover {
+    background-color: whitesmoke;
+    transition: 2s;
+
+}
+.ghicon {
+    font-size: 40px;
+    color: #488FB1;
+}
+.ghicon:hover {
+    color: #00092C;
+    transition: 2s;
 }
 
 /* PAGINA ACERCA DE */
