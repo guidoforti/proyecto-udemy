@@ -122,6 +122,13 @@ a.btnlink:hover, a.btnlink:active {
 }
  BOTONES EN CSS , LOS ESTOY BORRANDO PORQUE ALFINAL LO PUSE EN UNA LISTA DE NAVEGACION ARRIBA*/
 
+.navbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+}
 h1 {
     background-color: #589ae4;
     background-image: linear-gradient(270deg, #589ae4 0%, #2521a0 50%, #00092c 100%);
@@ -139,6 +146,14 @@ h1 {
     font-variant: small-caps;
     letter-spacing: 2px;
     word-spacing: 5px;
+    position: fixed;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    border-bottom: 2px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 2;
 }
 
 .corazon {
@@ -152,7 +167,8 @@ h1 {
 div.boxdad {
     width: 100%;
     margin: 40px 0px;
-    position: relative;
+    padding: 70px 0px ;
+    
 }
 .boxmodel {
     border: 3px solid black;
@@ -365,6 +381,16 @@ div.conteinercont {
 div.rotate-vert-center {
     position: fixed;
     bottom: 5px;
+    right: 10px;
+background-color: #000;
+border-radius: 10px;
+animation: rotate-vert-center 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+
+background-color:#00092c
+}
+div.rotate2 {
+    position: fixed;
+    bottom: 60px;
     right: 10px;
 background-color: #000;
 border-radius: 10px;
